@@ -43,7 +43,7 @@
 </head>
 
 <body>
-
+<?php include_once("googleanalytics.php") ?>
     <div class="page-loader"></div>
 
     <div class="wrapper">
