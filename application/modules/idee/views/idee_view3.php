@@ -27,9 +27,8 @@
 
                 <!-- === slide item === -->
 
-                <div class="item" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(<?php echo base_url();  ?>assets/images/slides/slide_02.jpg); background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;">
+                <div class="item lazyload" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)); background-repeat: no-repeat; background-size: cover; background-position: center center;"
+                		data-bgset="<?php echo base_url();  ?>assets/images/slides/slide_02.jpg">
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">Paintings & Showpieces</h2>
@@ -46,9 +45,9 @@
                 
                 <!-- === slide item === -->
 
-                <div class="item" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(<?php echo base_url();  ?>assets/images/slides/slide_03.jpg); background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;">
+                <div class="item lazyload" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)); background-repeat: no-repeat; background-size: cover; background-position: center center;"
+                        data-bgset="<?php echo base_url();  ?>assets/images/slides/slide_03.jpg">
+    >
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">Banquet & Buffet</h2>
@@ -65,9 +64,8 @@
 
                 <!-- === slide item === -->
 
-                <div class="item" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(<?php echo base_url();  ?>assets/images/slides/slide_04.jpg); background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;">
+                <div class="item lazyload" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)); background-repeat: no-repeat; background-size: cover; background-position: center center;"
+                		data-bgset="<?php echo base_url();  ?>assets/images/slides/slide_04.jpg">
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">
@@ -89,9 +87,8 @@
                 </div>
                 <!-- === slide item === -->
 
-                <div class="item" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(<?php echo base_url();  ?>assets/images/slides/slide_05.jpg); background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;">
+                <div class="item lazyload" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)); background-repeat: no-repeat; background-size: cover; background-position: center center;"
+                		data-bgset="<?php echo base_url();  ?>assets/images/slides/slide_05.jpg">
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">Living Room Furnitures</h2>
@@ -108,9 +105,8 @@
                 
                 <!-- === slide item === -->
 
-                <div class="item" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(<?php echo base_url();  ?>assets/images/slides/slide_06.jpg); background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;">
+                <div class="item lazyload" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)); background-repeat: no-repeat; background-size: cover; background-position: center center;"
+                		data-bgset="<?php echo base_url();  ?>assets/images/slides/slide_06.jpg">
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">Light Fittings</h2>
@@ -127,9 +123,8 @@
 
                 <!-- === slide item === -->
 
-                <div class="item" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(<?php echo base_url();  ?>assets/images/slides/slide_07.jpg); background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;">
+                <div class="item lazyload" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)); background-repeat: no-repeat; background-size: cover; background-position: center center;"
+                		data-bgset="<?php echo base_url();  ?>assets/images/slides/slide_07.jpg">
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">
@@ -246,8 +241,8 @@
                     <div class="col-sm-4">
                         <article>
                              <a href="<?php echo base_url();  ?>category_page/view_category/<?php echo $category->id;?>">
-                              <div class="image" style="background-image:url(<?php echo base_url();  ?>upload/cats/<?php echo $category->image; ?>)">
-                                    <img src="<?php echo base_url();  ?>upload/cats/<?php echo $category->image; ?>" alt="" />
+                              <div class="image lazyload" data-bgset="<?php echo base_url();  ?>upload/cats/<?php echo $category->image; ?>">
+                                    <img class="lazyload" data-src="<?php echo base_url();  ?>upload/cats/<?php echo $category->image; ?>" alt="" />
                                 </div>
                                 <div class="entry entry-table">
 
@@ -332,8 +327,8 @@
                     <div class="col-sm-4">
                         <article>
                              <a href="<?php echo base_url();  ?>blog/goto_blog/<?php echo $category->id;?>">
-                              <div class="image" style="background-image:url(<?php echo base_url();  ?>upload/cats/<?php echo $category->image; ?>)">
-                                    <img src="<?php echo base_url();  ?>upload/cats/<?php echo $category->image; ?>" alt="" />
+                              <div class="image lazyload" data-bgset="<?php echo base_url();  ?>upload/cats/<?php echo $category->image; ?>">
+                                    <img class="lazyload" data-src="<?php echo base_url();  ?>upload/cats/<?php echo $category->image; ?>" alt="" />
                                 </div>
                                 <div class="entry entry-table">
 
@@ -738,4 +733,6 @@
                 </div> <!--/row-->
             </div><!--/container-->
         </section>
+
+
 

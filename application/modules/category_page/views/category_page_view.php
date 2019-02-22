@@ -22,8 +22,8 @@
                     <div class="col-sm-4">
                         <article>
                              <a href="<?php echo base_url();  ?>prod_page/view_product/<?php echo $product->srno;?>">
-                              <div class="image" style="background-image:url(<?php echo base_url();  ?>upload/subcats/<?php echo $product->image; ?>)">
-                                    <img src="<?php echo base_url();  ?>upload/subcats/<?php echo $product->image; ?>" alt="" />
+                              <div class="image lazyload" data-bgset="<?php echo base_url();  ?>upload/subcats/<?php echo $product->image; ?>">
+                                    <img class="lazyload" data-src="<?php echo base_url();  ?>upload/subcats/<?php echo $product->image; ?>" alt="" />
                                 </div>
                                 <div class="entry entry-table">
 

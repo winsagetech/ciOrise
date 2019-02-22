@@ -31,7 +31,7 @@
                 <div class="figure-grid">
                     <div class="image">
                         <a href="#productid1" class="mfp-open">
-                            <img src="<?php echo base_url();  ?>upload/products/<?php echo $product_id; ?>/<?php echo $images[$i];?>" alt="" width="360" height="250" />
+                            <img class="lazyload" data-src="<?php echo base_url();  ?>upload/products/<?php echo $product_id; ?>/<?php echo $images[$i];?>" alt="" width="360" height="250" />
                         </a>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
             	<?php 
             	   for ($i = 0; $i < $image_count; $i++){ ?>
             	   
-                		<img src="<?php echo base_url();  ?>upload/products/<?php echo $product_id; ?>/<?php echo $images[$i];?>" alt="" width="640" />
+                		<img class="lazyload" data-src="<?php echo base_url();  ?>upload/products/<?php echo $product_id; ?>/<?php echo $images[$i];?>" alt="" width="640" />
                 <?php } ?>
             </div>
 
@@ -72,3 +72,4 @@
 	
 	
 </section>
+
