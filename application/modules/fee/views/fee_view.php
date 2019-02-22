@@ -12,8 +12,6 @@
 
 }
 
-}
-
 </style>
 
 <section class="main-header" style="background-image:url(<?php echo base_url();  ?>assets/images/blogs/header.jpg)">
