@@ -50,7 +50,7 @@
 
         <!-- ======================== Navigation ======================== -->
 
-        <nav class="navbar-fixed navbar-single-page">
+        <nav class="navbar-fixed">
 
             <div class="container">
 
