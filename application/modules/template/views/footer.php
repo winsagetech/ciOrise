@@ -1,5 +1,4 @@
 <script type="text/javascript">
-
 function add_subscriber() {
     var url = "<?php echo site_url('subscribers/subscriber_add')?>";
     
@@ -19,7 +18,6 @@ function add_subscriber() {
         }
     });
 }
-
 </script>
 
 <script type="text/javascript">
@@ -105,7 +103,6 @@ function googleTranslateElementInit() {
             '<p><i class="fa fa-phone"></i> +12 33 444 555</p>' +
             '<p><i class="fa fa-clock-o"></i> 10am - 6pm</p>' +
             '</div>';
-
             var infowindow = new google.maps.InfoWindow({
                 content: contentString
             });
