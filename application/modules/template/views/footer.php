@@ -19,8 +19,15 @@ function add_subscriber() {
         }
     });
 }
-
 </script>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
         
         <!-- ================== Footer  ================== -->
 
@@ -61,13 +68,13 @@ function add_subscriber() {
                         </div>
                         <div class="col-sm-6 links">
                             <ul>
-                                <li><a href="https://www.facebook.com/Interiors-IDEE-288351034559998/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/orisechina/"><i class="fa fa-facebook"></i></a></li>
                                 <!--  
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                 <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                                  -->
-                                <li><a href="https://www.instagram.com/idee.interiors/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/oriseinternational/"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
