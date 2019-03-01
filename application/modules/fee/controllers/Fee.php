@@ -9,7 +9,7 @@
         $data['products'] = $this->M_product->get_all_items();
         
         $this->load->view('template/header', $data);
-        $this->load->view('Fee/Fee_view');
+        $this->load->view('fee/fee_view');
         $this->load->view('template/footer', $data);
 
     }
