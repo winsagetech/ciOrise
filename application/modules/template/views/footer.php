@@ -1,4 +1,5 @@
 <script type="text/javascript">
+
 function add_subscriber() {
     var url = "<?php echo site_url('subscribers/subscriber_add')?>";
     
@@ -18,15 +19,8 @@ function add_subscriber() {
         }
     });
 }
-</script>
 
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
 </script>
-
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         
         <!-- ================== Footer  ================== -->
 
@@ -63,17 +57,17 @@ function googleTranslateElementInit() {
                 <div class="footer-social">
                     <div class="row">
                         <div class="col-sm-6">
-                            <a href="<?php echo base_url();  ?>privacy">Privacy policy</a>  &nbsp; | &nbsp; <a href="https://idee.winsagetech.com" target="_blank"></i> Powered by Winsage Technologies</a> 
+                            <a href="<?php echo base_url();  ?>tnc">Privacy policy</a>  &nbsp; | &nbsp; <a href="https://idee.winsagetech.com" target="_blank"></i> Powered by Winsage Technologies</a> 
                         </div>
                         <div class="col-sm-6 links">
                             <ul>
-                                <li><a href="https://www.facebook.com/Interiors-IDEE-288351034559998/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/orisechina/"><i class="fa fa-facebook"></i></a></li>
                                 <!--  
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                 <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                                  -->
-                                <li><a href="https://www.instagram.com/idee.interiors/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/oriseinternational/"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -103,6 +97,7 @@ function googleTranslateElementInit() {
             '<p><i class="fa fa-phone"></i> +12 33 444 555</p>' +
             '<p><i class="fa fa-clock-o"></i> 10am - 6pm</p>' +
             '</div>';
+
             var infowindow = new google.maps.InfoWindow({
                 content: contentString
             });
