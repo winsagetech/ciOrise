@@ -182,6 +182,10 @@
     -webkit-transform: none;
     transform: none;
 }
+
+.mar-right{
+    margin-right: 65px;
+}
 </style>
 
 <div class="box">
@@ -192,7 +196,7 @@
 
     <div class="container">
 
-        <div class="row">
+        <div class="row mar-right">
 
             <!-- === blog item === -->
         <?php 
