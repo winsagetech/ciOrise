@@ -47,7 +47,7 @@
 
                 <div class="item lazyload" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)); background-repeat: no-repeat; background-size: cover; background-position: center center;"
                         data-bgset="<?php echo base_url();  ?>assets/images/slides/slide_03.jpg">
-    >
+    
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">Banquet & Buffet</h2>
