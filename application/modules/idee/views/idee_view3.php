@@ -716,6 +716,12 @@
                                                             </div>
                                                         </div>
 
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <div class="g-recaptcha" data-sitekey="6Lf8Rl0UAAAAAGF3TySM-vhrgI4wATmoSVHglLd1"></div>
+                                                            </div>
+                                                        </div>
+
                                                         <div class="col-md-12 text-center">
                                                             <input type="submit" class="btn btn-clean" value="Send Message" />
                                                         </div>
