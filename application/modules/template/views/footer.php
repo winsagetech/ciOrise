@@ -65,7 +65,7 @@ function googleTranslateElementInit() {
                 <div class="footer-social">
                     <div class="row">
                         <div class="col-sm-6">
-                            <a href="<?php echo base_url();  ?>tnc">Privacy policy</a>  &nbsp; | &nbsp; <a href="https://idee.winsagetech.com" target="_blank"></i> Powered by Winsage Technologies</a> 
+                            <a href="<?php echo base_url();  ?>privacy">Privacy policy</a>  &nbsp; | &nbsp; <a href="https://idee.winsagetech.com" target="_blank"></i> Powered by Winsage Technologies</a> 
                         </div>
                         <div class="col-sm-6 links">
                             <ul>
