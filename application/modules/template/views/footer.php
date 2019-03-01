@@ -19,8 +19,15 @@ function add_subscriber() {
         }
     });
 }
-
 </script>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
         
         <!-- ================== Footer  ================== -->
 
@@ -57,7 +64,7 @@ function add_subscriber() {
                 <div class="footer-social">
                     <div class="row">
                         <div class="col-sm-6">
-                            <a href="<?php echo base_url();  ?>tnc">Privacy policy</a>  &nbsp; | &nbsp; <a href="https://idee.winsagetech.com" target="_blank"></i> Powered by Winsage Technologies</a> 
+                            <a href="<?php echo base_url();  ?>privacy">Privacy policy</a>  &nbsp; |&nbsp; <a href="<?php echo base_url();  ?>tnc">Terms and Conditions</a>  &nbsp; | &nbsp; <a href="https://idee.winsagetech.com" target="_blank"></i> Powered by Winsage Technologies</a> 
                         </div>
                         <div class="col-sm-6 links">
                             <ul>
