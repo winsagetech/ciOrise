@@ -1,22 +1,21 @@
-        <section class="main-header" style="background-image:url(<?php echo base_url();  ?>assets/mobel/assets/images/ourstory_image3.jpg)">
+
+<section class="main-header" style="background-image:url(<?php echo base_url();  ?>assets/images/blogs/header.jpg)">
             <header>
-                <div class="container">
-                    <h2 class="h2 title">TERMS & CONDITIONS</h2>
-                    <ol class="breadcrumb breadcrumb-inverted">
-                        <li><a href="<?php echo base_url() ?>"><span class="icon icon-home"></span></a></li>
-                        <li><a class="active" href="<?php echo base_url();  ?>tnc">TERMS & CONDITIONS</a></li>
-                    </ol>
+                <div class="container text-center">
+                    <h1 class="h2 title">Terms & Conditions</h1>
                 </div>
             </header>
-        </section>
+</section>
+        
 
+<section class="history" id="page-about">
+    <div class="container">
 
+    <!-- === row item === -->
 
-<!-- Description -->
-<section class="bg0 p-t-75 p-b-120">
-	<div class="container">
-
-		<h2>Welcome to OriseChina</h2>
+    <div class="row row-block">
+    <div class="col-md-12 history-desc">
+        
 	<p>These terms and conditions outline the rules and regulations for the use of OriseChina's Website.</p> <br /> 
 	<span style="text-transform: capitalize;"> OriseChina</span> is located at:<br /> 
 	<address>Rm 607, Block East, Tianan Development Building,<br>Hi-Tech Ecological Park, No.555 North Pan Yu Acenue,<br>Pan Yu District, Guangzhou, China.
@@ -32,12 +31,12 @@
 	of a fixed duration, or any other means, for the express purpose of meeting the Client's needs in respect
 	of provision of the Company's stated services/products, in accordance with and subject to, prevailing law
 	of India. Any use of the above terminology or other words in the singular, plural,
-	capitalisation and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p><h2>Cookies</h2>
+	capitalisation and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p><h5 class="mt-0 font-weight-bold">Cookies</h5>
 	<p>We employ the use of cookies. By using OriseChina's website you consent to the use of cookies 
 	in accordance with OriseChina's privacy policy.</p><p>Most of the modern day interactive web sites
 	use cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site
 	to enable the functionality of this area and ease of use for those people visiting. Some of our 
-	affiliate / advertising partners may also use cookies.</p><h2>License</h2>
+	affiliate / advertising partners may also use cookies.</p><h5 class="mt-0 font-weight-bold">License</h5>
 	<p>Unless otherwise stated, OriseChina and/or it's licensors own the intellectual property rights for
 	all material on OriseChina. All intellectual property rights are reserved. You may view and/or print
 	pages from http://www.OriseChinainteriors.com for your own personal use subject to restrictions set in these terms and conditions.</p>
@@ -48,7 +47,7 @@
 		<li>Reproduce, duplicate or copy material from http://www.OriseChina.com</li>
 	</ol>
 	<p>Redistribute content from OriseChina (unless content is specifically made for redistribution).</p>
-<h2>Hyperlinking to our Content</h2>
+	<h5 class="mt-0 font-weight-bold">Hyperlinking to our Content</h5>
 	<ol>
 		<li>The following organizations may link to our Web site without prior written approval:
 			<ol>
@@ -110,28 +109,28 @@
 	</ol>
 	<p>No use of OriseChina's logo or other artwork will be allowed for linking absent a trademark license
 	agreement.</p>
-<h2>Iframes</h2>
+	<h5 class="mt-0 font-weight-bold">Iframes</h5>
 	<p>Without prior approval and express written permission, you may not create frames around our Web pages or
 	use other techniques that alter in any way the visual presentation or appearance of our Web site.</p>
-<h2>Reservation of Rights</h2>
+	<h5 class="mt-0 font-weight-bold">Reservation of Rights</h5>
 	<p>We reserve the right at any time and in its sole discretion to request that you remove all links or any particular
 	link to our Web site. You agree to immediately remove all links to our Web site upon such request. We also
 	reserve the right to amend these terms and conditions and its linking policy at any time. By continuing
 	to link to our Web site, you agree to be bound to and abide by these linking terms and conditions.</p>
-<h2>Removal of links from our website</h2>
+	<h5 class="mt-0 font-weight-bold">Removal of links from our website</h5>
 	<p>If you find any link on our Web site or any linked web site objectionable for any reason, you may contact
 	us about this. We will consider requests to remove links but will have no obligation to do so or to respond
 	directly to you.</p>
 	<p>Whilst we endeavour to ensure that the information on this website is correct, we do not warrant its completeness
 	or accuracy; nor do we commit to ensuring that the website remains available or that the material on the
 	website is kept up to date.</p>
-<h2>Content Liability</h2>
+	<h5 class="mt-0 font-weight-bold">Content Liability</h5>
 	<p>We shall have no responsibility or liability for any content appearing on your Web site. You agree to indemnify
 	and defend us against all claims arising out of or based upon your Website. No link(s) may appear on any
 	page on your Web site or within any context containing content or materials that may be interpreted as
 	libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or
 	other violation of, any third party rights.</p>
-<h2>Disclaimer</h2>
+	<h5 class="mt-0 font-weight-bold">Disclaimer</h5>
 	<p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website (including, without limitation, any warranties implied by law in respect of satisfactory quality, fitness for purpose and/or the use of reasonable care and skill). Nothing in this disclaimer will:</p>
 	<ol>
 	<li>limit or exclude our or your liability for death or personal injury resulting from negligence;</li>
@@ -145,12 +144,9 @@
 	(including negligence) and for breach of statutory duty.</p>
 	<p>To the extent that the website and the information and services on the website are provided free of charge,
 	we will not be liable for any loss or damage of any nature.</p>
-<h2></h2>
-	<p></p>
 
-	</div>
+    </div>
+    </div>
+                
+    </div>
 </section>
-
-
-
-
