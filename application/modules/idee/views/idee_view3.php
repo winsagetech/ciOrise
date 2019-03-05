@@ -47,7 +47,7 @@
 
                 <div class="item lazyload" style="background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)); background-repeat: no-repeat; background-size: cover; background-position: center center;"
                         data-bgset="<?php echo base_url();  ?>assets/images/slides/slide_03.jpg">
-    >
+    
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">Banquet & Buffet</h2>
@@ -323,21 +323,23 @@
                     <!-- === blog item === -->
                        <!-- === blog item === -->
                 <?php $a=1;
-                 foreach($categories as $category) { if($a<4) { ?>
+                 foreach($products as $product) { if($a<4) { ?>
                     <div class="col-sm-4">
                         <article>
-                             <a href="<?php echo base_url();  ?>blog/goto_blog/<?php echo $category->id;?>">
-                              <div class="image lazyload" data-bgset="<?php echo base_url();  ?>upload/cats/<?php echo $category->image; ?>">
-                                    <img class="lazyload" data-src="<?php echo base_url();  ?>upload/cats/<?php echo $category->image; ?>" alt="" />
+                             <a href="<?php echo base_url();  ?>prod_page/view_product/<?php echo $product->srno;?>">
+                              <div class="image lazyload" data-bgset="<?php echo base_url();  ?>upload/subcats/<?php echo $product->image; ?>">
+                                    <img class="lazyload" data-src="<?php echo base_url();  ?>upload/subcats/<?php echo $product->image; ?>" alt="" />
                                 </div>
                                 <div class="entry entry-table">
 
                                     <div class="title">
-                                        <h2 class="h5"> <?php echo $category->category; ?></h2>
+                                        <h2 class="h5"> <?php echo $product->name; ?></h2>
                                     </div>
                                 </div>
-                                <div class="show-more">
-                                    <span class="btn btn-main btn-block">Explore</span>
+                                <div class="show-more">                                    
+                                    <a href="<?php echo base_url();  ?>request/catalogue/<?php echo $product->srno;?>">
+                                    	<span class="btn btn-main btn-block">Request Catalog</span>
+                                    </a>
                                 </div>
                             </a>
                         </article>
@@ -713,6 +715,12 @@
                                                         <div class="col-md-12">
                                                             <div class="form-group">
                                                                 <textarea class="form-control" placeholder="Your message" rows="10" name="message"></textarea>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <div class="g-recaptcha" data-sitekey="6Lf8Rl0UAAAAAGF3TySM-vhrgI4wATmoSVHglLd1"></div>
                                                             </div>
                                                         </div>
 

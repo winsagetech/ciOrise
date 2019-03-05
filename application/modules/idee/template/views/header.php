@@ -28,8 +28,7 @@
     <link rel="stylesheet" media="all" href="<?php echo base_url();  ?>assets/mobel/css/ion-range-slider.css" />
     <link rel="stylesheet" media="all" href="<?php echo base_url();  ?>assets/mobel/css/theme.css" />
     
-    <!--Google Translator-->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&amp;subset=latin-ext" rel="stylesheet">
@@ -62,24 +61,7 @@
 
                 <div class="navigation navigation-top clearfix">
                     <ul>
-                        <!--google translator-->
-                        <li class="nav-settings">
-                            <a href="javascript:void(0);" class="nav-settings-value">Language</a>
-                            <ul class="nav-settings-list">
-                            <li><a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en">English</a></li>
-                            <li><a href="#googtrans(en|ar)" class="lang-es lang-select" data-lang="ar">Arabic</a></li>
-                            <li><a href="#googtrans(en|zh-CN)" class="lang-es lang-select" data-lang="zh-CN">Chinese (Simplified)</a></li>
-                            <li><a href="#googtrans(en|zh-TW)" class="lang-en lang-select" data-lang="zh-TW">Chinese (Traditional)</a></li>
-                            <li><a href="#googtrans(en|fr)" class="lang-es lang-select" data-lang="fr">French</a></li>
-                            <li><a href="#googtrans(en|de)" class="lang-es lang-select" data-lang="de">German</a></li>
-                            <li><a href="#googtrans(en|it)" class="lang-en lang-select" data-lang="it">Italian</a></li>
-                            <li><a href="#googtrans(en|ja)" class="lang-es lang-select" data-lang="ja">Japanese</a></li>
-                            <li><a href="#googtrans(en|ko)" class="lang-es lang-select" data-lang="ko">Korean</a></li>
-                            <li><a href="#googtrans(en|ru)" class="lang-es lang-select" data-lang="ru">Russian</a></li>
-                            <li><a href="#googtrans(en|es)" class="lang-es lang-select" data-lang="es">Spanish</a></li>
-                            </ul>
-                        </li>
-                        
+                        <!--add active class for current page-->
                         <li><a href="https://www.facebook.com/orisechina/"><i class="fa fa-facebook"></i></a></li>
                                 <!--  
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>

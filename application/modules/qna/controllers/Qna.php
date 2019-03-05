@@ -1,6 +1,6 @@
 <?php
     
-    class Tnc extends MY_Controller {
+    class qna extends MY_Controller {
     function index()
     {
         $this->load->model('category/M_category');
@@ -9,7 +9,7 @@
         $data['products'] = $this->M_product->get_all_items();
         
         $this->load->view('template/header', $data);
-        $this->load->view('tnc/tnc_view');
+        $this->load->view('qna/qna_view');
         $this->load->view('template/footer', $data);
 
     }
