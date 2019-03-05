@@ -323,21 +323,23 @@
                     <!-- === blog item === -->
                        <!-- === blog item === -->
                 <?php $a=1;
-                 foreach($categories as $category) { if($a<4) { ?>
+                 foreach($products as $product) { if($a<4) { ?>
                     <div class="col-sm-4">
                         <article>
-                             <a href="<?php echo base_url();  ?>blog/goto_blog/<?php echo $category->id;?>">
-                              <div class="image lazyload" data-bgset="<?php echo base_url();  ?>upload/cats/<?php echo $category->image; ?>">
-                                    <img class="lazyload" data-src="<?php echo base_url();  ?>upload/cats/<?php echo $category->image; ?>" alt="" />
+                             <a href="<?php echo base_url();  ?>prod_page/view_product/<?php echo $product->srno;?>">
+                              <div class="image lazyload" data-bgset="<?php echo base_url();  ?>upload/subcats/<?php echo $product->image; ?>">
+                                    <img class="lazyload" data-src="<?php echo base_url();  ?>upload/subcats/<?php echo $product->image; ?>" alt="" />
                                 </div>
                                 <div class="entry entry-table">
 
                                     <div class="title">
-                                        <h2 class="h5"> <?php echo $category->category; ?></h2>
+                                        <h2 class="h5"> <?php echo $product->name; ?></h2>
                                     </div>
                                 </div>
-                                <div class="show-more">
-                                    <span class="btn btn-main btn-block">Explore</span>
+                                <div class="show-more">                                    
+                                    <a href="<?php echo base_url();  ?>request/catalogue/<?php echo $product->srno;?>">
+                                    	<span class="btn btn-main btn-block">Request Catalog</span>
+                                    </a>
                                 </div>
                             </a>
                         </article>
