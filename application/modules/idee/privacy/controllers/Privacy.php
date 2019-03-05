@@ -1,6 +1,6 @@
 <?php
     
-    class qna extends MY_Controller {
+    class Privacy extends MY_Controller {
     function index()
     {
         $this->load->model('category/M_category');
@@ -9,7 +9,7 @@
         $data['products'] = $this->M_product->get_all_items();
         
         $this->load->view('template/header', $data);
-        $this->load->view('qna/qna_view');
+        $this->load->view('privacy/privacy_view');
         $this->load->view('template/footer', $data);
 
     }
