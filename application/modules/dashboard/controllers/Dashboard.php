@@ -6,7 +6,7 @@ class Dashboard extends MY_Controller
     function __construct()
     {
         parent::__construct();
-        $this->load->module(['product', 'login', 'category', 'blog', 'subscribers', 'inventory', 'gallery', 'orders' ]);
+        $this->load->module(['product', 'login', 'category', 'blog', 'subscribers', 'inventory', 'gallery', 'orders', 'crm' ]);
  
         $this->load->model('category/M_category');
         $this->load->model('product/M_product');

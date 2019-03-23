@@ -240,7 +240,7 @@
                     <a href="<?php echo base_url(); ?>dashboard/inventory"><i class="fa fa-cubes"></i> <span>Sub Categories</span></a>
                 </li>           
                 <!--li>
-                    <a href="<?php// echo base_url(); ?>dashboard/payments"><i class="fa fa-money"></i> <span>Payments</span></a>
+                    <a href="#"><i class="fa fa-money"></i> <span>Payments</span></a>
                 </li-->
                 <li>
                     <a href="<?php echo base_url(); ?>dashboard/blogs"><i class="fa fa-money"></i> <span>Blogs</span></a>
@@ -252,7 +252,7 @@
                     <a href="<?php //echo base_url(); ?>dashboard/career"><i class="fa fa-money"></i> <span>Careers</span></a>
                 </li>
                 <li>
-                    <a href="<?php/// echo base_url(); ?>dashboard/reviews"><i class="fa fa-star"></i> <span>Reviwes</span></a>
+                    <a href="#"><i class="fa fa-star"></i> <span>Reviwes</span></a>
                 </li-->
                 <!-- 
                 <li>

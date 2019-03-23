@@ -92,7 +92,7 @@
                 $('[name="id"]').val(data.id);
                 $('[name="category"]').val(data.category);
                 $('[name="sr_num"]').val(data.id);
-                $('[name="image"]').val(data.image);
+                $('[name="image"]').val("");
                 $('#modal_form').modal('show'); // show bootstrap modal when complete loaded
                 $('.modal-title').text('Edit Model'); // Set title to Bootstrap modal title
             },
@@ -158,7 +158,7 @@
                 <h3 class="modal-title">category Form</h3>
             </div>
             <div class="modal-body form">
-                <form action="#" id="form" class="form-horizontal">
+                <form action="#" id="form" class="form-horizontal" enctype="multipart/form-data">
                     <input type="hidden" value="" name="id"/>
                     <div class="form-body">
                     	<div class="form-group">

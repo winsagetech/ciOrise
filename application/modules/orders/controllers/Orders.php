@@ -5,7 +5,7 @@ class Orders extends MY_Controller {
     
     public function __construct() {
         parent::__construct();
-        $this->load->model('orders/M_orders'); 
+        $this->load->model('orders/M_orders');
     }
     
     public function display_orders(){
@@ -14,8 +14,8 @@ class Orders extends MY_Controller {
         if (!$this->session->userdata('user')) {
             echo" please log in";
         } else {
-            $data['header'] = 'Orders';
-            $data['page_desc'] = 'Recent Orders';
+            $data['header'] = 'Catalogue';
+            $data['page_desc'] = 'Requests';
             $data['orders'] = $this->M_orders->get_all_orders();
             $data['content_view'] = 'orders/orders_view';
             
@@ -41,11 +41,22 @@ class Orders extends MY_Controller {
         echo json_encode(array("status" => TRUE));
     }
 
-    public function edit_order()
+    public function ajax_edit_order($id)
     {
         $data = array();
         $data = $this->M_orders->get_order($id);
         echo json_encode($data);
+    }
+
+    public function update_order()
+    {   $id = $this->input->post('id');
+        $data = array(
+            'status' => $this->input->post('status')
+        );
+        $this->M_orders->update_order(array(
+            'id' => $id
+        ), $data);
+        echo json_encode(array("status" => TRUE));
     }
 
 
@@ -75,4 +86,7 @@ class Orders extends MY_Controller {
         $this->M_orders->delete_order($id);
         echo json_encode(array("status" => TRUE));
     }
+
+    
+
 }
