@@ -104,7 +104,7 @@ function add_subscriber() {
                         </div>
                         <div class="col-sm-6">
                         <script type="text/javascript" src="https://free-hit-counters.net/count/1plg"></script><br>
-                        <a href='http://www.freevisitorcounters.com'>at Freevisitorcounters.com</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=7340829aaf578aacf32988e0d25b4d60a3bedb13'></script>
+                        <a href='http://www.freevisitorcounters.com'>.</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=7340829aaf578aacf32988e0d25b4d60a3bedb13'></script>
                     </div>
                     </div>
                 </div>
