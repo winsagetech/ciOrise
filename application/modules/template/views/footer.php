@@ -21,6 +21,17 @@ function add_subscriber() {
 }
 </script>
 
+<script type="text/javascript">
+    $("form").submit(function(event) {
+
+   var recaptcha = $("#g-recaptcha-response").val();
+   if (recaptcha === "") {
+      event.preventDefault();
+      alert("Please check the recaptcha");
+   }
+});
+</script>
+
     <script type="text/javascript">
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
