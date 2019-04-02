@@ -20,13 +20,49 @@ function add_subscriber() {
     });
 }
 </script>
+
 <script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
+    $("form").submit(function(event) {
+
+   var recaptcha = $("#g-recaptcha-response").val();
+   if (recaptcha === "") {
+      event.preventDefault();
+      alert("Please check the recaptcha");
+   }
+});
 </script>
 
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+    }
+
+    function triggerHtmlEvent(element, eventName) {
+      var event;
+      if (document.createEvent) {
+        event = document.createEvent('HTMLEvents');
+        event.initEvent(eventName, true, true);
+        element.dispatchEvent(event);
+      } else {
+        event = document.createEventObject();
+        event.eventType = eventName;
+        element.fireEvent('on' + event.eventType, event);
+      }
+    }
+
+    jQuery('.lang-select').click(function() {
+      var theLang = jQuery(this).attr('data-lang');
+      jQuery('.goog-te-combo').val(theLang);
+
+      //alert(jQuery(this).attr('href'));
+      window.location = jQuery(this).attr('href');
+      location.reload();
+
+    });
+    
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         
         
         <!-- ================== Footer  ================== -->
@@ -79,7 +115,7 @@ function googleTranslateElementInit() {
                         </div>
                         <div class="col-sm-6">
                         <script type="text/javascript" src="https://free-hit-counters.net/count/1plg"></script><br>
-                        <a href='http://www.freevisitorcounters.com'>at Freevisitorcounters.com</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=7340829aaf578aacf32988e0d25b4d60a3bedb13'></script>
+                        <a href='http://www.freevisitorcounters.com'>.</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=7340829aaf578aacf32988e0d25b4d60a3bedb13'></script>
                     </div>
                     </div>
                 </div>
