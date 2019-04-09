@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['base_url'] = 'http://new.orisechina.com/';
 $config['base_url'] = 'http://localhost/ciorise/';
 */
-$config['base_url'] = 'http://new.orisechina.com/';
+$config['base_url'] = 'http://orisechina.com/';
 
 /*
 |--------------------------------------------------------------------------

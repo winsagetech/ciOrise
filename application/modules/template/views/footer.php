@@ -19,20 +19,11 @@ function add_subscriber() {
         }
     });
 }
+
 </script>
+
 
 <script type="text/javascript">
-    $("form").submit(function(event) {
-
-   var recaptcha = $("#g-recaptcha-response").val();
-   if (recaptcha === "") {
-      event.preventDefault();
-      alert("Please check the recaptcha");
-   }
-});
-</script>
-
-    <script type="text/javascript">
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
     }
@@ -133,6 +124,19 @@ function add_subscriber() {
     <script src="<?php echo base_url();  ?>assets/mobel/js/main.js"></script>
     <script src="https://afarkas.github.io/lazysizes/plugins/bgset/ls.bgset.min.js"></script>
     <script src="https://unpkg.com/lazysizes@4.0.1/lazysizes.js"></script>
+
+
+
+    <script type="text/javascript">
+        $("#contact_form").submit(function(event) {
+        var recaptcha = $("#g-recaptcha-response").val();
+        console.log("Recaptcha = " . recaptcha);
+        if (recaptcha === "") {
+            event.preventDefault();
+            alert("Please check the recaptcha");
+        }
+        });
+    </script>
 
     <script>
         function initMap() {
