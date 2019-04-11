@@ -97,7 +97,7 @@
 
                 <!-- Setup your logo here-->
 
-                <a href="<?php echo base_url();  ?>#page-home" class="logo"><img src="<?php echo base_url();  ?>assets/images/logo.jpg" alt="logo" /> <strong style="color: white;padding-left: 20px;font-size: 28px;">new ORISE</strong></a>    
+                <a href="<?php echo base_url();  ?>#page-home" class="logo"><img src="<?php echo base_url();  ?>assets/images/logo.jpg" alt="logo" /></a>    
                     
                     <div class="open-menu"><i class="icon icon-menu"></i></div>
                     <div class="floating-menu">

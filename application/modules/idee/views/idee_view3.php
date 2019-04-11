@@ -12,15 +12,6 @@
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">Hotel Furnishing</h2>
-                            <!-- 
-                            <div class="animated" data-animation="fadeInUp">
-                                Modern & powerfull template. <br /> Clean design & reponsive
-                                layout. Google fonts integration
-                            </div>
-                            <div class="animated" data-animation="fadeInUp">
-                                <a href="https://themeforest.net/item/mobel-furniture-website-template/20382155" class="btn btn-clean">Explore</a>
-                            </div>
-                             -->
                         </div>
                     </div>
                 </div>
@@ -32,13 +23,6 @@
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">Paintings & Showpieces</h2>
-                            <!-- 
-                            <div class="animated" data-animation="fadeInUp">Unlimited Choices. Unbeatable Prices. Free Shipping.</div>
-                            <div class="animated" data-animation="fadeInUp">Furniture category icon fonts!</div>
-                            <div class="animated" data-animation="fadeInUp">
-                                <a href="category.html" class="btn btn-clean">Explore</a>
-                            </div>
-                             -->
                         </div>
                     </div>
                 </div>
@@ -51,13 +35,6 @@
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">Banquet & Buffet</h2>
-                            <!-- 
-                            <div class="animated" data-animation="fadeInUp">Unlimited Choices. Unbeatable Prices. Free Shipping.</div>
-                            <div class="animated" data-animation="fadeInUp">Furniture category icon fonts!</div>
-                            <div class="animated" data-animation="fadeInUp">
-                                <a href="category.html" class="btn btn-clean">Explore</a>
-                            </div>
-                             -->
                         </div>
                     </div>
                 </div>
@@ -71,17 +48,6 @@
                             <h2 class="title animated h1" data-animation="fadeInDown">
                                 Modern Furnitures
                             </h2>
-                            <!-- 
-                            <div class="desc animated" data-animation="fadeInUp">
-                                Combine with animate.css. Or just use your own!.
-                            </div>
-                            <div class="desc animated" data-animation="fadeInUp">
-                                Bunch of typography effects.
-                            </div>
-                            <div class="animated" data-animation="fadeInUp">
-                                <a href="https://themeforest.net/item/mobel-furniture-website-template/20382155" target="_blank" class="btn btn-clean">Explore</a>
-                            </div>
-                             -->
                         </div>
                     </div>
                 </div>
@@ -92,13 +58,6 @@
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">Living Room Furnitures</h2>
-                            <!-- 
-                            <div class="animated" data-animation="fadeInUp">Unlimited Choices. Unbeatable Prices. Free Shipping.</div>
-                            <div class="animated" data-animation="fadeInUp">Furniture category icon fonts!</div>
-                            <div class="animated" data-animation="fadeInUp">
-                                <a href="category.html" class="btn btn-clean">Explore</a>
-                            </div>
-                             -->
                         </div>
                     </div>
                 </div>
@@ -110,13 +69,6 @@
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">Light Fittings</h2>
-                            <!-- 
-                            <div class="animated" data-animation="fadeInUp">Unlimited Choices. Unbeatable Prices. Free Shipping.</div>
-                            <div class="animated" data-animation="fadeInUp">Furniture category icon fonts!</div>
-                            <div class="animated" data-animation="fadeInUp">
-                                <a href="category.html" class="btn btn-clean">Explore</a>
-                            </div>
-                             -->
                         </div>
                     </div>
                 </div>
@@ -128,19 +80,8 @@
                     <div class="box">
                         <div class="container text-center">
                             <h2 class="title animated h1" data-animation="fadeInDown">
-                                Hotel Operations Items
+                                Hotel Operational Items
                             </h2>
-                            <!-- 
-                            <div class="desc animated" data-animation="fadeInUp">
-                                Combine with animate.css. Or just use your own!.
-                            </div>
-                            <div class="desc animated" data-animation="fadeInUp">
-                                Bunch of typography effects.
-                            </div>
-                            <div class="animated" data-animation="fadeInUp">
-                                <a href="https://themeforest.net/item/mobel-furniture-website-template/20382155" target="_blank" class="btn btn-clean">Explore</a>
-                            </div>
-                             -->
                         </div>
                     </div>
                 </div>
@@ -278,6 +219,47 @@
         	</div>
         </section>
 
+        
+
+        <!-- ========================  Blog Block ======================== -->
+
+        <section class="blog" id="page-our-companies">
+
+            <div class="container">
+
+                <!-- === blog header === -->
+
+                <header>
+                    <div class="row">
+                        <div class="col-md-offset-2 col-md-8 text-center">
+                            <h2 class="title">Our Companies</h2>
+                            
+                        </div>
+                    </div>
+                </header>
+
+                <div class="row">
+                   <div class="col-md-3 col-xs-6">
+                        <a href="#" class="thumbnail"><img src="<?php echo base_url();  ?>assets/images/SAJ.jpg" alt="Image" style="height:80px;"></a>
+                        <h2 class="h5"> SAJ INTERNATIONAL LIMITED HONG KONG</h2>
+                   </div>
+                   <div class="col-md-3 col-xs-6"><a href="#" class="thumbnail">
+                        <img src="<?php echo base_url();  ?>assets/images/ORISE.jpg" alt="Image" style="height:80px;"></a>
+                        <h2 class="h5"> GUANGZHOU NEW ORISE INTERNATIONAL LIMITED</h2>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                        <a href="#" class="thumbnail"><img src="<?php echo base_url();  ?>assets/images/SPARK.jpg" alt="Image" style="height:80px;"></a>
+                        <h2 class="h5"> SPARK (CHINA) INTERNATIONAL LIMITED</h2>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                        <a href="#" class="thumbnail"><img src="<?php echo base_url();  ?>assets/images/ORISE.jpg" alt="Image" style="height:80px;"></a>
+                        <h2 class="h5"> ORISE INTERNATIONAL (HK)</h2>
+                   </div>
+                   
+                 </div><!--.row-->
+
+            </div> <!--/container-->
+        </section>
 
 
         <!-- ========================  Banner ======================== -->
@@ -398,7 +380,7 @@
 
             <!-- === Goolge map === -->
 
-            <div id="map"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.672449498658!2d113.31301431448907!3d23.035795921615346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340254489f216edd%3A0x111aad6a2e4a25a8!2sVienna+Hotel+Guangzhou+Panyu+Dashi+Qiao!5e0!3m2!1sen!2sin!4v1554972367497!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
             <div class="container">
 
@@ -415,7 +397,13 @@
                                             <span class="icon icon-map-marker"></span>
                                             <figcaption>
                                                 <strong>Where are we?</strong>
-                                                <span>Rm 607, Block East, Tianan Development Building,<br>Hi-Tech Ecological Park, No.555 North Pan Yu Acenue,<br>Pan Yu District, Guangzhou, China.</span>
+                                                <span>GUANGZHOU NEW ORISE INTERNATIONAL LIMITED<br>
+                                                      Room 403.4th floor,No.166 Nanda Road,dashi street, panyu,guangzhou ,China<br> 
+                                                </span>
+                                                <br><br> 
+                                                <span>SPARK (CHINA) INTERNATIONAL LIMITED<br>
+                                                      Room 402.4th floor,No.166 Nanda Road,dashi street, panyu,guangzhou ,China<br>
+                                                </span>
                                             </figcaption>
                                         </figure>
                                     </div>
