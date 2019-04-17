@@ -66,7 +66,15 @@ function add_subscriber() {
                     <div class="row">
                         <div class="col-sm-6">
                             <h2>Visit Us</h2>
-                            <p>Orise International Enterprise <br><br>Rm 607, Block East, Tianan Development Building,<br>Hi-Tech Ecological Park, No.555 North Pan Yu Acenue,<br>Pan Yu District, Guangzhou, China.<br>Zip code: 511400</p>
+                            <p><span>GUANGZHOU NEW ORISE INTERNATIONAL LIMITED<br>
+                                                      Room 403.4th floor,No.166 Nanda Road,dashi street, panyu,guangzhou ,China<br> 
+                                                </span>
+                                                <br><br> 
+                                                <span>SPARK (CHINA) INTERNATIONAL LIMITED<br>
+                                                      Room 402.4th floor,No.166 Nanda Road,dashi street, panyu,guangzhou ,China<br>
+                                                </span></p>
+
+                                                <h5>Email</h5>
                             <p><a href="mailto:info@orisechina.com" title="send an email to info@orisechina.com">info@orisechina.com</a></p>
                             
                         </div>
