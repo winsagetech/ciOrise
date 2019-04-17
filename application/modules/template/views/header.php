@@ -87,7 +87,7 @@
                                 <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                                  -->
                         <li><a href="https://www.instagram.com/oriseinternational/"><i class="fa fa-instagram"></i></a>
-                        <li><div id="google_translate_element"></div></li>    
+                          
                     </ul>
                 </div>
 
