@@ -54,6 +54,38 @@ function add_subscriber() {
     </script>
     
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- Recaptcha -->
+
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lc0O6EUAAAAADQNwClHr0vTgaXgs34FU_RqwAXC"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6Lc0O6EUAAAAADQNwClHr0vTgaXgs34FU_RqwAXC', { action: 'contact' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
+
+    <!-- form Validation -->
+
+    <script type="text/javascript">
+  
+    function validateForm() {
+  
+    var phone = document.forms["contact_form"]["phoneno"].value;
+
+    var regex = new RegExp("^\+(?:[0-9] ?)(6,14)[0-9]$");
+  
+    if (regex.test(phone)) {
+        return true;
+    } else {
+    alert("Phone No. format is Invalid");
+    }
+    
+}
+
+</script>
         
         
         <!-- ================== Footer  ================== -->

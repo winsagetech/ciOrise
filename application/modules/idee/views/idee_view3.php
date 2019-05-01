@@ -429,9 +429,31 @@
                                             Hi There, We are looking forward to hearing from you. Please feel free to get in touch via the form below, we will get back to you as soon as possible.
                                         </p>
 
-                                        <div class="contact-form-wrapper">                                           
+                                        <div class="contact-form-wrapper">
 
-                                                <form id="contact_form" method="post" action="<?php echo base_url();  ?>idee/send_mail/" >
+                                        <?php // Check if form was submitted:
+                                        if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])) {
+
+                                        // Build POST request:
+                                        $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+                                        $recaptcha_secret = '6Lc0O6EUAAAAAFQ1GvNxYahVoluceKf13sHB_Hrn';
+                                        $recaptcha_response = $_POST['recaptcha_response'];
+
+                                        // Make and decode POST request:
+                                        $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+                                        $recaptcha = json_decode($recaptcha);
+
+                                        print_r($recaptcha);
+
+                                        // Take action based on the score returned:
+                                        if ($recaptcha->score >= 0.5) {
+                                            echo 'recaptcha successful';
+                                        } else {
+                                            echo 'recaptcha failed';
+                                        }
+                                        } ?>                                           
+
+                                                <form id="contact_form" method="post" action="<?php echo base_url();  ?>idee/send_mail/" onsubmit="return validateForm()" >
                                                     <div class="row">
                                                         <div class="col-md-6">
                                                             <div class="form-group">
@@ -446,11 +468,10 @@
                                                         </div>
 
                                                         <div class="col-md-12">
-
-                                                            <div class="form-group">
+                                                        <div class="form-group">
                                                             <select class="form-control" required="required" name="country">
-                                                                	<option value="">Your country</option>    
-                                                                	<option value="Afghanistan">Afghanistan</option>
+                                                                    <option value="">Your country</option>    
+                                                                    <option value="Afghanistan">Afghanistan</option>
                                                                     <option value="Albania">Albania</option>
                                                                     <option value="Algeria">Algeria</option>
                                                                     <option value="American Samoa">American Samoa</option>
@@ -694,6 +715,12 @@
                                                         </div>
 
                                                         <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" value="" class="form-control" placeholder="(Country code) Phone number" required="required" name="phoneno">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-12">
 
                                                             <div class="form-group">
                                                                 <input type="text" value="" class="form-control" placeholder="Subject" required="required" name="subject">
@@ -702,19 +729,22 @@
 
                                                         <div class="col-md-12">
                                                             <div class="form-group">
-                                                                <textarea class="form-control" placeholder="Your message" rows="10" name="message"></textarea>
+                                                                <textarea class="form-control" placeholder="Your message" required="required" rows="10" name="message"></textarea>
                                                             </div>
                                                         </div>
 
-                                                        <div class="col-md-12">
+                                                        <!-- <div class="col-md-12">
                                                             <div class="form-group">
                                                                 <div class="g-recaptcha" data-sitekey="6Lf8Rl0UAAAAAGF3TySM-vhrgI4wATmoSVHglLd1"></div>
                                                             </div>
-                                                        </div>
+                                                        </div> -->
 
                                                         <div class="col-md-12 text-center">
-                                                            <input type="submit" class="btn btn-clean" value="Send Message" />
+                                                            <input type="submit" class="btn btn-clean" value="Send Message"  />
                                                         </div>
+
+                                                        <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+
                                                     </div>
                                                 </form>
                                         </div>
